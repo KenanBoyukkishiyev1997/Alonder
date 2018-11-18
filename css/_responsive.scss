@@ -1,0 +1,176 @@
+
+@media only screen and (max-width: 1200px) {
+	header{
+		nav{
+
+			.main { 
+				transition: 0.8s;
+				display: block;
+				position: absolute;
+				right: 0px;
+				left: 0px;
+				list-style: none;
+				float: right;
+				text-align: center;
+				margin: 100px 0px;
+				background: black;
+				width: 100%;
+				opacity: 0.8;
+				li{
+					display: block;
+					transition: 0.8s;
+					border-bottom: 1px solid #828282;
+					height: 100px;
+
+					margin:0; 
+					padding: 35px 29px;
+					&:hover{
+						background-color: red;
+					}
+				}
+			}
+			ul{
+				display: none;
+				li{
+					border-right: none !important;
+				}
+				
+			}
+
+			a{
+				display: block  !important;
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+	.ourProducts{
+
+		.image{
+			margin: 10px 0px;
+			height: 100px !important;
+			
+
+		}
+	}
+
+
+	.flex{
+		display: flex;
+		justify-content: center;
+		margin: 20px 0;
+
+		.text{
+			text-align: center !important;
+
+		}
+	}
+
+
+	.ourCilient{
+		p{
+			text-align: center;
+
+		}
+
+		a{
+			text-align: center;
+			margin: 15px 0;
+		}
+	}
+
+
+
+	.Contact{
+		h4{
+			margin-top: 30px;
+			transition: 0.8s;
+			text-align: center;
+		}
+	}
+
+
+
+	.AboutUs{
+		.image{
+			height: 240px !important;
+		}
+
+		p{
+			text-align: center !important;
+		}
+		a{
+			text-align: center ;
+		}
+
+	}
+
+
+	.About{
+		h3{
+			font-size: 14px !important;
+		}
+	}
+
+
+	.ourBlog{
+		text-align: center ;
+	}
+
+
+	.ContactUs{
+		text-align: center;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	.top{
+		display: none;
+	}
+
+
+	.li_input{
+		display: block !important;
+
+	}
+}
+
+
+@media only screen and (max-width: 660px) {
+	.input{
+		width: 155px !important;
+	}
+}
+
+
+
+@media only screen and (max-width: 991px){
+	.AboutUs{
+		.image{
+			height: 240px !important;
+		}
+
+		p{
+			text-align: center !important;
+		}
+		a{
+			text-align: center ;
+		}
+
+	}
+
+
+	.flex{
+		display: flex;
+		justify-content: center;
+		margin: 20px 0;
+
+		.text{
+			text-align: center !important;
+
+		}
+	}
+}
