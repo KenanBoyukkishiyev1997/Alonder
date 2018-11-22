@@ -248,30 +248,28 @@ header {
     width: 100%; }
   .silender .carousel .left {
     opacity: 1; }
-    .silender .carousel .left .glyphicon {
-      outline: none;
-      font-size: 40px;
-      height: 50px;
-      line-height: 50px;
-      width: 50px;
-      text-align: center;
-      background-color: #000;
+    .silender .carousel .left .images {
+      position: absolute;
+      bottom: 190px;
+      background: #000;
+      height: 45px;
+      line-height: 40px;
       border-radius: 50%;
+      width: 45px;
       border: 2px solid #666666;
-      color: #666666; }
+      text-align: center; }
   .silender .carousel .right {
     opacity: 1; }
-    .silender .carousel .right .glyphicon {
-      outline: none;
-      font-size: 40px;
-      height: 50px;
-      line-height: 50px;
-      width: 50px;
-      text-align: center;
-      background-color: #000;
+    .silender .carousel .right .images {
+      position: absolute;
+      bottom: 190px;
+      background: #000;
+      height: 45px;
+      line-height: 40px;
       border-radius: 50%;
+      width: 45px;
       border: 2px solid #666666;
-      color: #666666; }
+      text-align: center; }
 
 .About {
   margin: 50px 0px;
